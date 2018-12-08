@@ -31,7 +31,7 @@ namespace Whiteboard
             if (leftFlag)
             {
                 Point mouseSet = Control.MousePosition;
-                mouseSet.Offset(mouseOff.X, mouseOff.Y);  //设置移动后的位置
+                mouseSet.Offset(mouseOff.X-8, mouseOff.Y-30);  //设置移动后的位置
                 Location = mouseSet;
             }
         }
